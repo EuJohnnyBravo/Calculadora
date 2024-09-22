@@ -24,7 +24,7 @@ function multiplicacao() {
 function divisao() {
   let { numero1, numero2 } = pegaValores();
   if (numero2 === 0) {
-    resultado.innerHTML = "O segundo valor precisa ser diferente de 0";
+    resultado.innerHTML = "O segundo número precisa ser diferente de 0";
   } else {
     resultado.innerHTML = numero1 / numero2;
   }
