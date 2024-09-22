@@ -10,3 +10,8 @@ function soma() {
   let { numero1, numero2 } = pegaValores();
   resultado.innerHTML = numero1 + numero2;
 }
+
+function subtracao() {
+  let { numero1, numero2 } = pegaValores();
+  resultado.innerHTML = numero1 - numero2;
+}
