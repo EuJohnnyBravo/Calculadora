@@ -15,3 +15,8 @@ function subtracao() {
   let { numero1, numero2 } = pegaValores();
   resultado.innerHTML = numero1 - numero2;
 }
+
+function multiplicacao() {
+  let { numero1, numero2 } = pegaValores();
+  resultado.innerHTML = numero1 * numero2;
+}
